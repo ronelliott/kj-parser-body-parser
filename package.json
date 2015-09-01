@@ -1,0 +1,39 @@
+{
+  "name": "kj-parser-body-parser",
+  "version": "0.0.1",
+  "description": "Body-parser parser for the kj webapp framework.",
+  "author": "Ron Elliott <ron@elliott.im>",
+  "license": "ISC",
+  "keywords": [
+    "webapp",
+    "framework",
+    "parser",
+    "body-parser"
+  ],
+  "scripts": {
+    "coverage:upload": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "mocha",
+    "test:coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "proxyquire": "^1.6.0",
+    "should": "^7.0.4",
+    "sinon": "^1.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronelliott/kj-parser-body-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronelliott/kj-parser-body-parser/issues"
+  },
+  "homepage": "https://github.com/ronelliott/kj-parser-body-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "extend": "^3.0.0",
+    "is": "^3.0.1"
+  }
+}
