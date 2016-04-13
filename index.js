@@ -1,11 +1,10 @@
 'use strict';
 
-var bodyParser = require('body-parser'),
-    extend = require('extend'),
-    is = require('is');
+const bodyParser = require('body-parser'),
+      is = require('is');
 
 module.exports = function($opts) {
-    $opts = extend(true, {
+    $opts = Object.assign({
         json: {
             enabled: false,
             inject: '$parser-json',
