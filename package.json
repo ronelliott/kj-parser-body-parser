@@ -1,6 +1,6 @@
 {
   "name": "kj-parser-body-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Body-parser parser for the kj webapp framework.",
   "author": "Ron Elliott <ronaldbelliott@gmail.com>",
   "license": "ISC",
